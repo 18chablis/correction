@@ -1,0 +1,64 @@
+/* Landing Page */
+.landing {
+  position: relative;
+  margin-top: 5rem;
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #e2e1ef,
+    #c4c4df,
+    #a4a9d0,
+    #828fc1,
+    #7284ba,
+    #6079b4,
+    #4d6fad,
+    #4d6fad,
+    #4d6fad,
+    #4d6fad,
+    #4d6fad
+  );
+  height: 100vh;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.landing-inner {
+  color: #fff;
+  height: 60%;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.landing-inner h1 {
+  font-size: 60px;
+  padding-top: 1.5rem;
+}
+.landing-inner p {
+  font-size: 18px;
+  max-width: 60%;
+}
+
+.landing-inner .buttons {
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .landing-inner h1 {
+    font-size: 36px;
+  }
+  .landing-inner p {
+    padding-top: 1.5rem;
+  }
+}
